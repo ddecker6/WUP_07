@@ -75,8 +75,19 @@ Using the numerical results, we can further interpret that males are dominating 
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+
+
+Using the inferential results, we can further conclude that although there is a smaller group of males than females, the males are still dying more than females.  The degrees of freedom is 1, while the result is 1. The P-value is 0.0012 is a small chance of showing there is no difference. With the Fisher's Exact Test the P-Value is 9e-04 the odds ratio is 2.3, which says the odds of a female living is 2.3 times greater than a male living in this specific study.  
 
 
 ## Conclusions
+
+
+
 
