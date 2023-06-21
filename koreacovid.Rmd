@@ -89,5 +89,5 @@ Using the inferential results, we can further conclude that although there is a 
 ## Conclusions
 
 
-
+In conclusion, from examining all of the results, we can conclude that males are dying more than females. In this specific data set, COVID-19 has a greater impact on males. There were more females in the sample group, but regardless, the male group still had more deaths in comparison to the females. By looking at the graphical results, we can conclude that males are dying at a greater rate. As well as looking at the numerical and inferential results. Looking at the numbers and probability, just further proves that males are for some reason more impacted than females. 
 
