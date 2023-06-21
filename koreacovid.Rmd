@@ -64,6 +64,14 @@ Looking at the graphical results, we can assume there are more males dying than 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+Using the numerical results, we can further interpret that males are dominating the section of death in comparison to females. In the first chart, there are 36% females dead, where there are 64% dead males. In the second chart, 1.4% are dead and there are 3% dead of males, so there isn't many people dying, but of this data set the gender of those dying are more male than female.
+
 
 ## Inferential results 
 
