@@ -28,6 +28,9 @@ state of a patient must be died or alive - we adjust that as well
 # Your Question - Is dying independent of sex?
 
 
+## Methods
+
+We will Investigate whether men and women are equally likely to die of COVID 19 from data collected in South Korea through May 2019. We will analyze the Sex of the patients and the result if they are alive or dead. The result is one of the variables. There is a factor variable $Sex and $sex with two levels, we have a helper file to use as a template to approach this problem. 
 
 
 
