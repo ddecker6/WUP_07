@@ -39,8 +39,24 @@ We will Investigate whether men and women are equally likely to die of COVID 19 
 
 
 
-  
+#### Plot barplots ggplot way
 
+```{r}
+dd2 <- kRdata %>% group_by(result,Sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
+
+
+# the group_by followed by summarize(count=n())
+
+basicC <- ggplot(dd2,aes(x=result,y=count,fill=Sex))
+basicC + geom_bar(stat="identity",position="dodge")
+
+#Now for percentage plot
+
+basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
+  
+Looking at the graphical results, we can assume there are more males dying than females. It looks like there are twice as many males, but in the first place there were more females than males. This virus is somehow impacting males more than females. 
 
 
 
